@@ -8,7 +8,7 @@ import { BottomRightCorner } from "./BottomRightCorner";
 
 export function Hero() {
   return (
-    <div className="w-full h-screen flex items-center justify-center p-3 md:p-5 bg-[#f0f0f0]">
+    <div className="w-full h-[100dvh] flex items-center justify-center p-3 md:p-5 bg-[#f0f0f0]">
       <section className="relative w-full max-w-[1536px] h-full rounded-[1.5rem] md:rounded-[3rem] overflow-hidden shadow-none flex flex-col items-center bg-white/10 group">
         
         <video 
@@ -40,7 +40,7 @@ export function Hero() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-base sm:text-lg md:text-xl text-white/90 leading-relaxed max-w-2xl font-medium drop-shadow-xl bg-black/20 p-4 rounded-2xl backdrop-blur-sm"
+              className="text-base sm:text-lg md:text-xl text-white/90 leading-relaxed max-w-2xl font-medium drop-shadow-xl bg-black/20 p-3 md:p-4 rounded-2xl backdrop-blur-sm"
             >
               Helping families and investors find genuine and trusted properties with complete transparency.
             </motion.p>
